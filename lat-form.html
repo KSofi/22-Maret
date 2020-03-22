@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan Form HTML</title>
+</head>
+<body>
+    <fieldset>
+        <legend>BIODATA</legend>
+    <form action="">
+        First Name :
+        <input type="text" name="firstname"><br><br>
+        Last Name :
+        <input type="text" name="lastname"><br><br>
+        Password :
+        <input type="password" name="password"><br><br>
+        Tempat, tanggal lahir :
+        <input type="date" name="date"><br><br>
+        Jenis Kelamin :
+        <label>
+            <input type="radio" name="male" value="male">Male
+        </label>
+        <label>
+            <input type="radio" name="female" value="female">Female
+        </label><br><br>
+        Sekolah :
+        <input type="checkbox" name="sd" value="sd">SD
+        <input type="checkbox" name="smp" value="smp">SMP
+        <input type="checkbox" name="sma" value="sma">SMA
+        <input type="checkbox" name="s1" value="s1">S1<br><br>
+        Status :
+        <select name="status" id="">
+            <option value="" selected="selected">Pilih Status</option>
+            <option value="bahasa inggris">Married</option>
+            <option value="bahasa indonesia">Unmarried</option>
+        </select><br><br>
+        Alamat :
+        <textarea name="alamat" value="alamat"></textarea><br><br>
+        Foto :
+        <input type="file" name="foto"><br><br>
+        <input type="submit" name="Submit">
+    </form>
+    </fieldset>
+</body>
+</html>
